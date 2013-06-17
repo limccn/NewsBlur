@@ -411,11 +411,11 @@ static const CGFloat kFolderTitleHeight = 28;
     
     if (self.inPullToRefresh_) {
         urlFeedList = [NSURL URLWithString:
-                      [NSString stringWithFormat:@"http://%@/reader/feeds?flat=true",
+                      [NSString stringWithFormat:@"https://%@/reader/feeds?flat=true",
                       NEWSBLUR_URL]];
     } else {
         urlFeedList = [NSURL URLWithString:
-                       [NSString stringWithFormat:@"http://%@/reader/feeds?flat=true&update_counts=false",
+                       [NSString stringWithFormat:@"https://%@/reader/feeds?flat=true&update_counts=false",
                         NEWSBLUR_URL]];
     }
     
@@ -786,7 +786,7 @@ static const CGFloat kFolderTitleHeight = 28;
             return;
         } else {
             //  this doesn't work in simulator!!! because simulator has no app store
-            NSURL *url = [NSURL URLWithString:@"http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=463981119&mt=8"];
+            NSURL *url = [NSURL URLWithString:@"https://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=463981119&mt=8"];
             [[UIApplication sharedApplication] openURL:url];
         }
     }
@@ -1280,7 +1280,7 @@ heightForHeaderInSection:(NSInteger)section {
 
 
 - (void)loadFavicons {
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/reader/favicons",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/reader/favicons",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     ASIHTTPRequest  *request = [ASIHTTPRequest  requestWithURL:url];
@@ -1369,10 +1369,10 @@ heightForHeaderInSection:(NSInteger)section {
     // refresh the feed
     NSString *urlString;
     if (feedId) {
-        urlString = [NSString stringWithFormat:@"http://%@/reader/feed_unread_count?feed_id=%@",
+        urlString = [NSString stringWithFormat:@"https://%@/reader/feed_unread_count?feed_id=%@",
                      NEWSBLUR_URL, feedId];
     } else {
-        urlString = [NSString stringWithFormat:@"http://%@/reader/refresh_feeds",
+        urlString = [NSString stringWithFormat:@"https://%@/reader/refresh_feeds",
                      NEWSBLUR_URL];
     }
     NSURL *urlFeedList = [NSURL URLWithString:urlString];

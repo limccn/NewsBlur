@@ -711,10 +711,10 @@
         
         NSString *urlString;
         if (appDelegate.isSocialView || appDelegate.isSocialRiverView) {
-            urlString = [NSString stringWithFormat:@"http://%@/reader/mark_social_stories_as_read",
+            urlString = [NSString stringWithFormat:@"https://%@/reader/mark_social_stories_as_read",
                          NEWSBLUR_URL];
         } else {
-            urlString = [NSString stringWithFormat:@"http://%@/reader/mark_story_as_read",
+            urlString = [NSString stringWithFormat:@"https://%@/reader/mark_story_as_read",
                          NEWSBLUR_URL];
         }
         
@@ -797,7 +797,7 @@
 }
 
 - (void)markStoryAsSaved {
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/reader/mark_story_as_starred",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/reader/mark_story_as_starred",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
@@ -827,7 +827,7 @@
 - (void)markStoryAsUnsaved {
     //    [appDelegate markActiveStoryUnread];
     
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/reader/mark_story_as_unstarred",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/reader/mark_story_as_unstarred",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
@@ -859,7 +859,7 @@
 
 - (void)markStoryAsUnread {
     if ([[appDelegate.activeStory objectForKey:@"read_status"] intValue] == 1) {
-        NSString *urlString = [NSString stringWithFormat:@"http://%@/reader/mark_story_as_unread",
+        NSString *urlString = [NSString stringWithFormat:@"https://%@/reader/mark_story_as_unread",
                                NEWSBLUR_URL];
         NSURL *url = [NSURL URLWithString:urlString];
         ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];

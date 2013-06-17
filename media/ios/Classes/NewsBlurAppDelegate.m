@@ -604,7 +604,7 @@
 }
 
 - (void)refreshUserProfile:(void(^)())callback {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/social/load_user_profile",
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://%@/social/load_user_profile",
                                        NEWSBLUR_URL]];
     ASIHTTPRequest *_request = [ASIHTTPRequest requestWithURL:url];
     __weak ASIHTTPRequest *request = _request;
@@ -637,7 +637,7 @@
             return;
         } else {
             NSLog(@"Logging out...");
-            NSString *urlS = [NSString stringWithFormat:@"http://%@/reader/logout?api=1",
+            NSString *urlS = [NSString stringWithFormat:@"https://%@/reader/logout?api=1",
                               NEWSBLUR_URL];
             NSURL *url = [NSURL URLWithString:urlS];
             
@@ -1807,7 +1807,7 @@
     [self.storyPageControl refreshHeaders];
     [self.trainerViewController refresh];
     
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/classifier/save",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/classifier/save",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     __block ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
@@ -1850,7 +1850,7 @@
     [self.storyPageControl refreshHeaders];
     [self.trainerViewController refresh];
     
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/classifier/save",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/classifier/save",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     __block ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
@@ -1897,7 +1897,7 @@
     [self.storyPageControl refreshHeaders];
     [self.trainerViewController refresh];
     
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/classifier/save",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/classifier/save",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     __block ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
@@ -1939,7 +1939,7 @@
     [self.storyPageControl refreshHeaders];
     [self.trainerViewController refresh];
     
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/classifier/save",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/classifier/save",
                            NEWSBLUR_URL];
     NSURL *url = [NSURL URLWithString:urlString];
     __block ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];

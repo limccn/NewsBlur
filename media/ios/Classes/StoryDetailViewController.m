@@ -170,12 +170,12 @@
                          "<div class='NB-share-header'></div>"
                          "<div class='NB-share-wrapper'><div class='NB-share-inner-wrapper'>"
                          "  <div id=\"NB-share-button-id\" class='NB-share-button NB-button'>"
-                         "    <a href=\"http://ios.newsblur.com/share\"><div>"
+                         "    <a href=\"https://ios.slickreader.com/share\"><div>"
                          "      <span class=\"NB-icon\"></span> Share this story"
                          "    </div></a>"
                          "  </div>"
                          "  <div id=\"NB-share-button-id\" class='NB-share-button NB-train-button NB-button'>"
-                         "    <a href=\"http://ios.newsblur.com/train\"><div>"
+                         "    <a href=\"https://ios.slickreader.com/train\"><div>"
                          "      <span class=\"NB-icon\"></span> Train this story"
                          "    </div></a>"
                          "  </div>"
@@ -282,7 +282,7 @@
             int authorScore = [[[[appDelegate.activeClassifiers objectForKey:feedId]
                                  objectForKey:@"authors"]
                                 objectForKey:author] intValue];
-            storyAuthor = [NSString stringWithFormat:@"<span class=\"NB-middot\">&middot;</span><a href=\"http://ios.newsblur.com/classify-author/%@\" "
+            storyAuthor = [NSString stringWithFormat:@"<span class=\"NB-middot\">&middot;</span><a href=\"https://ios.slickreader.com/classify-author/%@\" "
                            "class=\"NB-story-author %@\" id=\"NB-story-author\"><div class=\"NB-highlight\"></div>%@</a>",
                            author,
                            authorScore > 0 ? @"NB-story-author-positive" : authorScore < 0 ? @"NB-story-author-negative" : @"",
@@ -298,7 +298,7 @@
                 int tagScore = [[[[appDelegate.activeClassifiers objectForKey:feedId]
                                   objectForKey:@"tags"]
                                  objectForKey:tag] intValue];
-                NSString *tagHtml = [NSString stringWithFormat:@"<a href=\"http://ios.newsblur.com/classify-tag/%@\" "
+                NSString *tagHtml = [NSString stringWithFormat:@"<a href=\"https://ios.slickreader.com/classify-tag/%@\" "
                                       "class=\"NB-story-tag %@\"><div class=\"NB-highlight\"></div>%@</a>",
                                       tag,
                                       tagScore > 0 ? @"NB-story-tag-positive" : tagScore < 0 ? @"NB-story-tag-negative" : @"",
@@ -355,7 +355,7 @@
         NSString *avatar = [NSString stringWithFormat:@
                             "<div class=\"NB-story-share-profile\"><div class=\"%@\">"
                             "<a id=\"NB-user-share-bar-%@\" class=\"NB-show-profile\" "
-                            " href=\"http://ios.newsblur.com/show-profile/%@\">"
+                            " href=\"https://ios.slickreader.com/show-profile/%@\">"
                             "<div class=\"NB-highlight\"></div>"
                             "<img src=\"%@\" />"
                             "</a>"
@@ -521,7 +521,7 @@
     if ([commentUserId isEqualToString:currentUserId]) {
         userEditButton = [NSString stringWithFormat:@
                           "<div class=\"NB-story-comment-edit-button NB-story-comment-share-edit-button NB-button\">"
-                            "<a href=\"http://ios.newsblur.com/edit-share/%@\"><div class=\"NB-story-comment-edit-button-wrapper\">"
+                            "<a href=\"https://ios.slickreader.com/edit-share/%@\"><div class=\"NB-story-comment-edit-button-wrapper\">"
                                 "Edit"
                             "</div></a>"
                           "</div>",
@@ -538,7 +538,7 @@
         if (isInLikingUsers) {
             userLikeButton = [NSString stringWithFormat:@
                               "<div class=\"NB-story-comment-like-button NB-button selected\">"
-                              "<a href=\"http://ios.newsblur.com/unlike-comment/%@\"><div class=\"NB-story-comment-like-button-wrapper\">"
+                              "<a href=\"https://ios.slickreader.com/unlike-comment/%@\"><div class=\"NB-story-comment-like-button-wrapper\">"
                               "<span class=\"NB-favorite-icon\"></span>"
                               "</div></a>"
                               "</div>",
@@ -546,7 +546,7 @@
         } else {
             userLikeButton = [NSString stringWithFormat:@
                               "<div class=\"NB-story-comment-like-button NB-button\">"
-                              "<a href=\"http://ios.newsblur.com/like-comment/%@\"><div class=\"NB-story-comment-like-button-wrapper\">"
+                              "<a href=\"https://ios.slickreader.com/like-comment/%@\"><div class=\"NB-story-comment-like-button-wrapper\">"
                               "<span class=\"NB-favorite-icon\"></span>"
                               "</div></a>"
                               "</div>",
@@ -582,7 +582,7 @@
         comment = [NSString stringWithFormat:@
                     "<div class=\"NB-story-comment\" id=\"NB-user-comment-%@\">"
                     "<div class=\"%@\">"
-                    "<a class=\"NB-show-profile\" href=\"http://ios.newsblur.com/show-profile/%@\">"
+                    "<a class=\"NB-show-profile\" href=\"https://ios.slickreader.com/show-profile/%@\">"
                     "<div class=\"NB-highlight\"></div>"
                     "<img src=\"%@\" />"
                     "</a>"
@@ -597,7 +597,7 @@
                     "%@" // location
                     "<div class=\"NB-button-wrapper\">"
                     "    <div class=\"NB-story-comment-reply-button NB-button\">"
-                    "        <a href=\"http://ios.newsblur.com/reply/%@/%@\"><div class=\"NB-story-comment-reply-button-wrapper\">"
+                    "        <a href=\"https://ios.slickreader.com/reply/%@/%@\"><div class=\"NB-story-comment-reply-button-wrapper\">"
                     "            Reply"
                     "        </div></a>"
                     "    </div>"
@@ -625,7 +625,7 @@
         comment = [NSString stringWithFormat:@
                    "<div class=\"NB-story-comment\" id=\"NB-user-comment-%@\">"
                    "<div class=\"%@\">"
-                   "<a class=\"NB-show-profile\" href=\"http://ios.newsblur.com/show-profile/%@\">"
+                   "<a class=\"NB-show-profile\" href=\"https://ios.slickreader.com/show-profile/%@\">"
                    "<div class=\"NB-highlight\"></div>"
                    "<img src=\"%@\" />"
                    "</a>"
@@ -640,7 +640,7 @@
                    "%@" // location
                    "<div class=\"NB-button-wrapper\">"
                    "    <div class=\"NB-story-comment-reply-button NB-button\">"
-                   "        <a href=\"http://ios.newsblur.com/reply/%@/%@\"><div class=\"NB-story-comment-reply-button-wrapper\">"
+                   "        <a href=\"https://ios.slickreader.com/reply/%@/%@\"><div class=\"NB-story-comment-reply-button-wrapper\">"
                    "            Reply"
                    "        </div></a>"
                    "    </div>"
@@ -686,7 +686,7 @@
             if ([replyUserId isEqualToString:currentUserId]) {
                 userEditButton = [NSString stringWithFormat:@
                                   "<div class=\"NB-story-comment-edit-button NB-story-comment-share-edit-button NB-button\">"
-                                  "<a href=\"http://ios.newsblur.com/edit-reply/%@/%@/%@\">"
+                                  "<a href=\"https://ios.slickreader.com/edit-reply/%@/%@/%@\">"
                                   "<div class=\"NB-story-comment-edit-button-wrapper\">"
                                   "Edit"
                                   "</div>"
@@ -712,7 +712,7 @@
             if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
                 reply = [NSString stringWithFormat:@
                          "<div class=\"NB-story-comment-reply\" id=\"NB-user-comment-%@\">"
-                         "   <a class=\"NB-show-profile\" href=\"http://ios.newsblur.com/show-profile/%@\">"
+                         "   <a class=\"NB-show-profile\" href=\"https://ios.slickreader.com/show-profile/%@\">"
                          "       <div class=\"NB-highlight\"></div>"
                          "       <img class=\"NB-story-comment-reply-photo\" src=\"%@\" />"
                          "   </a>"
@@ -735,7 +735,7 @@
             } else {
                 reply = [NSString stringWithFormat:@
                          "<div class=\"NB-story-comment-reply\" id=\"NB-user-comment-%@\">"
-                         "   <a class=\"NB-show-profile\" href=\"http://ios.newsblur.com/show-profile/%@\">"
+                         "   <a class=\"NB-show-profile\" href=\"https://ios.slickreader.com/show-profile/%@\">"
                          "       <div class=\"NB-highlight\"></div>"
                          "       <img class=\"NB-story-comment-reply-photo\" src=\"%@\" />"
                          "   </a>"
@@ -911,10 +911,10 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
     }
     
 //    NSLog(@"Tapped url: %@", url);
-    // HACK: Using ios.newsblur.com to intercept the javascript share, reply, and edit events.
+    // HACK: Using ios.slickreader.com to intercept the javascript share, reply, and edit events.
     // the pathComponents do not work correctly unless it is a correctly formed url
     // Is there a better way?  Someone show me the light
-    if ([[url host] isEqualToString: @"ios.newsblur.com"]){
+    if ([[url host] isEqualToString: @"ios.slickreader.com"]){
         // reset the active comment
         appDelegate.activeComment = nil;
         appDelegate.activeShareType = action;
@@ -1123,10 +1123,10 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
     [appDelegate.storyPageControl showShareHUD:@"Favoriting"];
     NSString *urlString;
     if (likeComment) {
-        urlString = [NSString stringWithFormat:@"http://%@/social/like_comment",
+        urlString = [NSString stringWithFormat:@"https://%@/social/like_comment",
                                NEWSBLUR_URL];
     } else {
-        urlString = [NSString stringWithFormat:@"http://%@/social/remove_like_comment",
+        urlString = [NSString stringWithFormat:@"https://%@/social/remove_like_comment",
                                NEWSBLUR_URL];
     }
     
@@ -1248,7 +1248,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
 
 - (void)subscribeToBlurblog {
     [appDelegate.storyPageControl showShareHUD:@"Following"];
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/social/follow",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/social/follow",
                      NEWSBLUR_URL];
     
     NSURL *url = [NSURL URLWithString:urlString];
@@ -1409,7 +1409,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
     MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.webView animated:YES];
     HUD.labelText = @"Fetching text...";
     
-    NSString *urlString = [NSString stringWithFormat:@"http://%@/rss_feeds/original_text",
+    NSString *urlString = [NSString stringWithFormat:@"https://%@/rss_feeds/original_text",
                            NEWSBLUR_URL];
     ASIFormDataRequest *request = [self formRequestWithURL:urlString];
     [request addPostValue:[appDelegate.activeStory objectForKey:@"id"] forKey:@"story_id"];

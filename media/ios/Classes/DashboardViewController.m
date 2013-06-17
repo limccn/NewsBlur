@@ -12,7 +12,7 @@
 #import "InteractionsModule.h"
 #import "UserProfileViewController.h"
 
-#define FEEDBACK_URL @"http://www.newsblur.com/about"
+#define FEEDBACK_URL @"https://www.slickreader.com/about"
 
 @implementation DashboardViewController
 

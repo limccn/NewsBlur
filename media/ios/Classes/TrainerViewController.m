@@ -179,7 +179,7 @@
             storyAuthor = [NSString stringWithFormat:@"<div class=\"NB-trainer-section-inner\">"
                            "  <div class=\"NB-trainer-section-title\">Story Authors</div>"
                            "  <div class=\"NB-trainer-section-body\">"
-                           "    <a href=\"http://ios.newsblur.com/classify-author/%@\" "
+                           "    <a href=\"https://ios.slickreader.com/classify-author/%@\" "
                            "       class=\"NB-story-author %@\">%@</a>"
                            "  </div>"
                            "</div>",
@@ -205,7 +205,7 @@
                               objectForKey:@"authors"]
                              objectForKey:author] intValue];
             NSString *authorHtml = [NSString stringWithFormat:@"<div class=\"NB-classifier-container\">"
-                                    "  <a href=\"http://ios.newsblur.com/classify-author/%@\" "
+                                    "  <a href=\"https://ios.slickreader.com/classify-author/%@\" "
                                     "     class=\"NB-story-author %@\">%@</a>"
                                     "  <span class=\"NB-classifier-count\">&times;&nbsp; %d</span>"
                                     "</div>",
@@ -245,7 +245,7 @@
                                   objectForKey:@"tags"]
                                  objectForKey:tag] intValue];
                 NSString *tagHtml = [NSString stringWithFormat:@"<div class=\"NB-classifier-container\">"
-                                     "  <a href=\"http://ios.newsblur.com/classify-tag/%@\" "
+                                     "  <a href=\"https://ios.slickreader.com/classify-tag/%@\" "
                                      "     class=\"NB-story-tag %@\">%@</a>"
                                      "</div>",
                                      tag,
@@ -283,7 +283,7 @@
                               objectForKey:@"tags"]
                              objectForKey:tag] intValue];
             NSString *tagHtml = [NSString stringWithFormat:@"<div class=\"NB-classifier-container\">"
-                                 "  <a href=\"http://ios.newsblur.com/classify-tag/%@\" "
+                                 "  <a href=\"https://ios.slickreader.com/classify-tag/%@\" "
                                  "     class=\"NB-story-tag %@\">%@</a>"
                                  "  <span class=\"NB-classifier-count\">&times;&nbsp; %d</span>"
                                  "</div>",
@@ -334,7 +334,7 @@
                                 "  <div class=\"NB-trainer-section-title\">Publisher</div>"
                                 "  <div class=\"NB-trainer-section-body\">"
                                 "    <div class=\"NB-classifier-container\">"
-                                "      <a href=\"http://ios.newsblur.com/classify-feed/%@\" "
+                                "      <a href=\"https://ios.slickreader.com/classify-feed/%@\" "
                                 "         class=\"NB-story-publisher NB-story-publisher-%@\">%@</a>"
                                 "    </div>"
                                 "  </div>"
@@ -365,7 +365,7 @@
             int titleScore = [[classifiers objectForKey:title] intValue];
             NSString *titleClassifier = [NSString stringWithFormat:@
                                          "<div class=\"NB-classifier-container\">"
-                                         "  <a href=\"http://ios.newsblur.com/classify-title/%@\" "
+                                         "  <a href=\"https://ios.slickreader.com/classify-title/%@\" "
                                          "     class=\"NB-story-title NB-story-title-%@\">%@</a>"
                                          "</div>",
                                          title,
@@ -447,7 +447,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
     }
     
     NSLog(@"Tapped url: %@", url);
-    if ([[url host] isEqualToString: @"ios.newsblur.com"]){
+    if ([[url host] isEqualToString: @"ios.slickreader.com"]){
         
         if ([action isEqualToString:@"classify-author"]) {
             NSString *author = [NSString stringWithFormat:@"%@", [urlComponents objectAtIndex:2]];
