@@ -22,7 +22,7 @@ public class AddFacebook extends NbFragmentActivity {
 		
 		webview.setWebViewClient(new WebViewClient() {
 		    public boolean shouldOverrideUrlLoading(WebView view, String url){
-		    	if (TextUtils.equals(url, "http://www.newsblur.com/")) {
+		    	if (TextUtils.equals(url, "https://www.slickreader.com/")) {
 		    		AddFacebook.this.setResult(FACEBOOK_AUTHED);
 		    		AddFacebook.this.finish();
 		    		return true;
@@ -32,7 +32,7 @@ public class AddFacebook extends NbFragmentActivity {
 		   }
 		});
 		
-		webview.loadUrl("http://www.newsblur.com/oauth/facebook_connect/");
+		webview.loadUrl("https://www.slickreader.com/oauth/facebook_connect/");
 	}
 	
 }

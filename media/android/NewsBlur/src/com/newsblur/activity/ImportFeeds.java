@@ -21,7 +21,7 @@ public class ImportFeeds extends NbFragmentActivity {
 		
 		webContainer.setWebViewClient(new WebViewClient() {
 		    public boolean shouldOverrideUrlLoading(WebView view, String url){
-		    	if (TextUtils.equals(url, "http://www.newsblur.com/")) {
+		    	if (TextUtils.equals(url, "https://www.slickreader.com/")) {
 		    		ImportFeeds.this.setResult(RESULT_OK);
 		    		ImportFeeds.this.finish();
 		    		return true;
@@ -31,7 +31,7 @@ public class ImportFeeds extends NbFragmentActivity {
 		   }
 		});
 		
-		webContainer.loadUrl("http://www.newsblur.com/import/authorize/");
+		webContainer.loadUrl("https://www.slickreader.com/import/authorize/");
 		
 	}
 

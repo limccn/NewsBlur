@@ -22,7 +22,7 @@ public class AddTwitter extends NbFragmentActivity {
 		
 		webview.setWebViewClient(new WebViewClient() {
 		    public boolean shouldOverrideUrlLoading(WebView view, String url){
-		    	if (TextUtils.equals(url, "http://www.newsblur.com/")) {
+		    	if (TextUtils.equals(url, "https://www.slickreader.com/")) {
 		    		AddTwitter.this.setResult(TWITTER_AUTHED);
 		    		AddTwitter.this.finish();
 		    		return true;
@@ -32,7 +32,7 @@ public class AddTwitter extends NbFragmentActivity {
 		   }
 		});
 		
-		webview.loadUrl("http://www.newsblur.com/oauth/twitter_connect/");
+		webview.loadUrl("https://www.slickreader.com/oauth/twitter_connect/");
 	}
 	
 }
