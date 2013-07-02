@@ -70,7 +70,7 @@
             android:textColor="@color/darkgray"
             android:textSize="11dp" />
 
-        <com.newsblur.view.FlowLayout
+        <com.slickreader.view.FlowLayout
             android:id="@+id/reading_item_tags"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

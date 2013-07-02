@@ -446,7 +446,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* NewsBlurAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NewsBlurAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		1D3623250D0F684500981E51 /* NewsBlurAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NewsBlurAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1D6058910D05DD3D006BFB54 /* NewsBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsBlur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* SlickReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlickReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28D7ACF60DDB3853001CB0EB /* NewsBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsBlurViewController.h; sourceTree = "<group>"; };
@@ -566,7 +566,7 @@
 		43A4C3D415B00966008787B5 /* TransparentToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransparentToolbar.m; path = "Other Sources/TransparentToolbar.m"; sourceTree = "<group>"; };
 		43A4C3D515B00966008787B5 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+TKCategory.h"; path = "Other Sources/UIView+TKCategory.h"; sourceTree = "<group>"; };
 		43A4C3D615B00966008787B5 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+TKCategory.m"; path = "Other Sources/UIView+TKCategory.m"; sourceTree = "<group>"; };
-		43A4C3E615B0099B008787B5 /* NewsBlur_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsBlur_Prefix.pch; sourceTree = "<group>"; };
+		43A4C3E615B0099B008787B5 /* SlickReader_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlickReader_Prefix.pch; sourceTree = "<group>"; };
 		43A4C3F315B00A26008787B5 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		43A4C3F415B00A26008787B5 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		43A4C3F715B00A26008787B5 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
@@ -700,7 +700,7 @@
 		78FC34F411CA94900055C312 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		78FC34F511CA94900055C312 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		78FC34F611CA94900055C312 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* NewsBlur-iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NewsBlur-iPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SlickReader-iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SlickReader-iPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FF1660C716D6E9A700AF8541 /* DashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
 		FF1660C916D6E9B400AF8541 /* DashboardViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "DashboardViewController~ipad.xib"; path = "Resources-iPad/Classes/DashboardViewController~ipad.xib"; sourceTree = "<group>"; };
 		FF1660CB16D6FD8A00AF8541 /* SmallInteractionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallInteractionCell.h; sourceTree = "<group>"; };
@@ -1109,7 +1109,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* NewsBlur.app */,
+				1D6058910D05DD3D006BFB54 /* SlickReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1124,7 +1124,7 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				8D1107310486CEB800E47090 /* NewsBlur-iPhone-Info.plist */,
+				8D1107310486CEB800E47090 /* SlickReader-iPhone-Info.plist */,
 				43A4C49D15B00CD3008787B5 /* Entitlements.entitlements */,
 			);
 			name = CustomTemplate;
@@ -1143,7 +1143,7 @@
 				43F6A7A515B0E1A40092EE91 /* OHAttributedLabel.m */,
 				FFFC60821716578E00DC22E2 /* THCircularProgressView.h */,
 				FFFC60831716578E00DC22E2 /* THCircularProgressView.m */,
-				43A4C3E615B0099B008787B5 /* NewsBlur_Prefix.pch */,
+				43A4C3E615B0099B008787B5 /* SlickReader_Prefix.pch */,
 				43A4C3B915B00966008787B5 /* ABTableViewCell.h */,
 				43A4C3BA15B00966008787B5 /* ABTableViewCell.m */,
 				43A4C3BB15B00966008787B5 /* Base64.h */,
@@ -2012,9 +2012,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* NewsBlur */ = {
+		1D6058900D05DD3D006BFB54 /* SlickReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NewsBlur" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SlickReader" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -2024,9 +2024,9 @@
 			);
 			dependencies = (
 			);
-			name = NewsBlur;
+			name = SlickReader;
 			productName = NewsBlur;
-			productReference = 1D6058910D05DD3D006BFB54 /* NewsBlur.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* SlickReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2038,7 +2038,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = NewsBlur;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NewsBlur" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SlickReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -2054,7 +2054,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* NewsBlur */,
+				1D6058900D05DD3D006BFB54 /* SlickReader */,
 			);
 		};
 /* End PBXProject section */
@@ -2511,11 +2511,11 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NewsBlur_Prefix.pch;
+				GCC_PREFIX_HEADER = SlickReader_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "NewsBlur-iPhone-Info.plist";
+				INFOPLIST_FILE = "SlickReader-iPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2528,7 +2528,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = NewsBlur;
+				PRODUCT_NAME = SlickReader;
 				PROVISIONING_PROFILE = "3A91A886-5038-41A3-B9DB-C1A1FF5F519B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A91A886-5038-41A3-B9DB-C1A1FF5F519B";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2548,11 +2548,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Samuel Clay (G9HFWP68T7)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NewsBlur_Prefix.pch;
+				GCC_PREFIX_HEADER = SlickReader_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "NewsBlur-iPhone-Info.plist";
+				INFOPLIST_FILE = "SlickReader-iPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2564,7 +2564,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = NewsBlur;
+				PRODUCT_NAME = SlickReader;
 				PROVISIONING_PROFILE = "3A91A886-5038-41A3-B9DB-C1A1FF5F519B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A91A886-5038-41A3-B9DB-C1A1FF5F519B";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2622,7 +2622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NewsBlur" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SlickReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -2631,7 +2631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NewsBlur" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SlickReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

@@ -105,8 +105,8 @@
             android:textColor="@color/darkgray"
             android:textSize="14dp" />
 
-        <com.newsblur.view.FlowLayout
-            xmlns:newsblur="http://schemas.android.com/apk/res/com.newsblur"
+        <com.slickreader.view.FlowLayout
+            xmlns:newsblur="http://schemas.android.com/apk/res/com.slickreader"
             android:id="@+id/comment_favourite_avatars"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

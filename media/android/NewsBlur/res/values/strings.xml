@@ -1,12 +1,12 @@
 <resources>
 
-    <string name="newsblur">NewsBlur</string>
+    <string name="newsblur">SlickReader</string>
     
     <string name="login_username_hint">username</string>
     <string name="login_password_hint">password</string>
     <string name="login_registration_email_hint">email address</string>
     <string name="login_button_login">Log In</string>
-    <string name="login_message_error">There was problem connecting to NewsBlur. Check your internet connection.</string>
+    <string name="login_message_error">There was problem connecting to SlickReader. Check your internet connection.</string>
     <string name="login_logging_in">Logging in…</string>
     <string name="login_logged_in">Logged in!</string>
     <string name="login_retrieving_feeds">Retrieving feeds…</string>
@@ -22,7 +22,7 @@
     <string name="unfollow_error">There was a problem unfollowing the user. Check your internet connection and try again.</string>
     
     <string name="description_login_button">Press to log in.</string>
-    <string name="description_login_logo">NewsBlur Logo</string>
+    <string name="description_login_logo">SlickReader Logo</string>
     <string name="description_favicon">The feed\'s favicon</string>
 	<string name="description_profile_picture">The user\'s profile picture</string>
 	<string name="description_row_folder_icon">folder icon</string>
@@ -123,8 +123,8 @@
     <string name="add_facebook">Add Facebook friends</string>
     <string name="need_to_login"><u>I need to log in!</u></string>
     <string name="need_to_register"><u>I need to register</u></string>
-    <string name="wonderful_things">Wonderful things are happening at Newsblur. Add our blog for the latest news.</string>
-    <string name="addfollow_add_newsblur">Follow the NewsBlur blog</string>
+    <string name="wonderful_things">Wonderful things are happening at SlickReader. Add our blog for the latest news.</string>
+    <string name="addfollow_add_newsblur">Follow the SlickReader blog</string>
     <string name="addfollow_add_popular">Follow Popular Stories</string>
     <string name="add_follow">All Done!</string>
     <string name="share_with_comments">Share with comments</string>

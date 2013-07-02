@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="horizontal" >
 
-    <com.newsblur.view.StateToggleButton
+    <com.slickreader.view.StateToggleButton
         android:id="@+id/fragment_intelligence_statebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

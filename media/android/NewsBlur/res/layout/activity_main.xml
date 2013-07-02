@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/fragment_feedintelligenceselector"
-        android:name="com.newsblur.fragment.FeedIntelligenceSelectorFragment"
+        android:name="com.slickreader.fragment.FeedIntelligenceSelectorFragment"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/fragment_folderfeedlist"
-        android:name="com.newsblur.fragment.FolderListFragment"
+        android:name="com.slickreader.fragment.FolderListFragment"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_above="@id/fragment_feedintelligenceselector"

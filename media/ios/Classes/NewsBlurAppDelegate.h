@@ -15,7 +15,7 @@
 #define FEED_DASHBOARD_VIEW_TAG 100004
 #define SHARE_MODAL_HEIGHT 120
 #define STORY_TITLES_HEIGHT 240
-#define DASHBOARD_TITLE @"NewsBlur"
+#define DASHBOARD_TITLE @"SlickReader"
 
 @class NewsBlurViewController;
 @class DashboardViewController;

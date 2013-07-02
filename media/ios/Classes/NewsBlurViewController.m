@@ -667,7 +667,7 @@ static const CGFloat kFolderTitleHeight = 28;
     if (currentiPhoneVersionFloat < serveriPhoneVersionFloat) {
         NSLog(@"Version: %f - %f", serveriPhoneVersionFloat, currentiPhoneVersionFloat);
         NSString *title = [NSString stringWithFormat:@
-                           "You should download the new version of NewsBlur.\n\nNew version: v%@\nYou have: v%@", 
+                           "You should download the new version of SlickReader.\n\nNew version: v%@\nYou have: v%@", 
                            serveriPhoneVersion, 
                            currentiPhoneVersion];
         UIAlertView *upgradeConfirm = [[UIAlertView alloc] initWithTitle:title 

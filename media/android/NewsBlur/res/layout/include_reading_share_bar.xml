@@ -40,7 +40,7 @@
         android:textSize="12sp"
         android:textStyle="bold" />
 
-    <com.newsblur.view.FlowLayout
+    <com.slickreader.view.FlowLayout
         android:id="@+id/reading_social_commentimages"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,8 +48,8 @@
         android:layout_toLeftOf="@id/center_filler"
         android:layout_toRightOf="@id/comment_by" />
 
-    <com.newsblur.view.FlowLayout
-        xmlns:newsblur="http://schemas.android.com/apk/res/com.newsblur"
+    <com.slickreader.view.FlowLayout
+        xmlns:newsblur="http://schemas.android.com/apk/res/com.slickreader"
         android:id="@+id/reading_social_shareimages"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

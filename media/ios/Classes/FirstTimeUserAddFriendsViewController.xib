@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">12C3006</string>
+		<string key="IBDocument.SystemVersion">11G63</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.AppKitVersion">1138.51</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">2083</string>
@@ -35,7 +35,7 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUIView" id="874391841">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUILabel" id="736025522">
@@ -43,7 +43,6 @@
 						<int key="NSvFlags">303</int>
 						<string key="NSFrame">{{20, 49}, {500, 100}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="406293652"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -83,7 +82,6 @@
 						<int key="NSvFlags">303</int>
 						<string key="NSFrame">{{20, 421}, {500, 106}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="436803934"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -91,7 +89,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">NewsBlur won't post without your permission.</string>
+						<string key="IBUIText">SlickReader won't post without your permission.</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC4zMzMzMzMzMzMzAA</bytes>
@@ -118,7 +116,6 @@
 						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{178, 175}, {184, 34}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="43930813"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -157,7 +154,6 @@
 						<int key="NSvFlags">-2147483347</int>
 						<string key="NSFrame">{{215, 182}, {20, 20}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="467269529"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -168,7 +164,6 @@
 						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{178, 262}, {184, 34}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="886247703"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -200,7 +195,6 @@
 						<int key="NSvFlags">-2147483347</int>
 						<string key="NSFrame">{{215, 269}, {20, 20}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="961208593"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -215,7 +209,6 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{27, 17}, {122, 34}}</string>
 								<reference key="NSSuperview" ref="436803934"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="761624383"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -238,8 +231,6 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{142, 20}, {94, 27}}</string>
 								<reference key="NSSuperview" ref="436803934"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -250,7 +241,6 @@
 						</array>
 						<string key="NSFrame">{{145, 361}, {251, 68}}</string>
 						<reference key="NSSuperview" ref="874391841"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="353080965"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -262,8 +252,6 @@
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 44}, {540, 540}}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="736025522"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
